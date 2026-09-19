@@ -2,7 +2,7 @@
 
 
 console.log('Hello Everyone... Good Morning...');
-console.log('Have a grate day.');
+console.log('Have a great day.');
 
 // Declare two numeric variables
 let firstNumber: number = 12;
