@@ -1,19 +1,19 @@
 
-//Debuging Mode : We have to check our code line by line
-//Brake point : BP Use to stop execution on that perticular statement
+//Debugging Mode : We have to check our code line by line
+//Brake point : Use to stop execution on that perticular statement
 //F5: Continue
 //F10: execute line by line
 
-// console.log("Hello All");
-// console.log("Good Morning");
-// console.log("How Are You");
+console.log("Hello All");
+console.log("Good Morning");
+console.log("How Are You");
 
 
 //1. Static Type Checking
 
-// let age = 25;
-// age = "Twenty Five"; // No error
-// console.log(age * 2); // NaN
+let age = 25;
+age = "Twenty Five"; // No error
+console.log(age * 2); // NaN
 
 
 //2. Better IntelliSense & Auto-Completion
@@ -44,6 +44,7 @@ emp2.display();
 function printDataasd<T>(data: T): T {
     return data;
 }
-//printData<string>("Hello");
-//printData<number>(100);
+
+printData<string>("Hello");
+printData<number>(100);
 
