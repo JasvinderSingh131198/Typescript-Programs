@@ -42,11 +42,11 @@ class PenExample {
 
 let p1 = new PenExample();
 
-//console.log(p1.name123);
-//p1.addition(20, 30);
-//p1.multiplication();
-//p1.wish("Good Morning", "Sadanand");
-//p1.studentData("Nilam");
+console.log(p1.name123);
+p1.addition(20, 30);
+p1.multiplication();
+p1.wish("Good Morning", "Sadanand");
+p1.studentData("Nilam");
 
 const output = p1.division(10, 5);
 console.log(output + 100);
