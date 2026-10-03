@@ -126,7 +126,7 @@ let s : Student[] = [
        {
         id : 3,
         name : "Jasvinder",
-        location : "Pune"
+        location : "Mumbai"
     },
        {
         id : 4,
