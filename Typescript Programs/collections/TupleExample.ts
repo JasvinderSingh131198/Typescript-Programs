@@ -6,27 +6,27 @@
 //4. Unlike normal arrays, tuples allow you to store multiple types of values in a single array.
 
 //Tuple declaration
-// let student : [number, string] = [1, "Gauri"];
-// console.log(student);
+ let student : [number, string] = [1, "Gauri"];
+ console.log(student);
 
 
 //Tuple declaration with different data type
-// let student : [number, string, boolean] = [1, "Gauri", true];
-// console.log(student);
+ let student : [number, string, boolean] = [1, "Gauri", true];
+ console.log(student);
 
 //Modify Tuple
-// let student : [number, string, boolean] = [1, "Gauri", true];
-// student[1] = "Mayur"
-// console.log(student);
+ let student : [number, string, boolean] = [1, "Gauri", true];
+ student[1] = "Mayur"
+ console.log(student);
 
 //Optional Tuple Elements
-// let student : [number, string, boolean?] = [1, "Gauri"];
-// console.log(student);
+ let student : [number, string, boolean?] = [1, "Gauri"];
+ console.log(student);
 
 //Private Tuple Elements
-// let student : readonly [number, string, boolean?] = [1, "Gauri"];
-// student[1] = "Mayur"
-// console.log(student);
+ let student : readonly [number, string, boolean?] = [1, "Gauri"];
+ student[1] = "Mayur"
+ console.log(student);
 
 //Rest Element in Tuple [...number[]]
 //we have to use  ...number[]
