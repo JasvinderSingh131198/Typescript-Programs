@@ -12,13 +12,13 @@
 
 
 //Set Decleration
-// let marks : Set<number> = new Set();
-// marks.add(10);
-// marks.add(30);
-// marks.add(20);
-// marks.add(30);
+ let marks : Set<number> = new Set();
+ marks.add(10);
+ marks.add(30);
+ marks.add(20);
+ marks.add(30);
 
-// console.log(marks);
+ console.log(marks);
 
 //Set directly declaration
 let marks : Set<number> = new Set([10, 30, 20]);
