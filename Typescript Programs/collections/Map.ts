@@ -14,25 +14,25 @@ students.set(3, "Pranoti");
 students.set(4, "Rahul");
 students.set(1, "Soyaf");
 
-//console.log(students);
+console.log(students);
 
 //get specific value from map
-//console.log(students.get(3));
+console.log(students.get(3));
 
 //has() - check key
-//console.log(students.has(4));
+console.log(students.has(4));
 
 //delete()
-//students.delete(4); 
-//console.log(students);
+students.delete(4); 
+console.log(students);
 
 //size()
-//console.log(students.size);
+console.log(students.size);
 
 //clear()
 students.clear();
 console.log(students);
 
-// for(let [id, name] of students){
-//     console.log(id, name);
-// }
+ for(let [id, name] of students){
+     console.log(id, name);
+ }
