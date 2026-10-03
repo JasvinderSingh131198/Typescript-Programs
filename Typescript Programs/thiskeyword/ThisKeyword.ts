@@ -6,21 +6,21 @@
 //Methods of the same object.
 
 //1. this keyword refer to the current class property
-// class NeedOfThisKeyword {
+ class NeedOfThisKeyword {
 
-//     name : string = 'Ankit';
+     name : string = 'Ankit';
 
-//     constructor(name : string) {
-//         this.name = name;
-//     }
+     constructor(name : string) {
+         this.name = name;
+     }
 
-//     display(){
-//         console.log(this.name);
-//     }
-// }
+     display(){
+         console.log(this.name);
+     }
+ }
 
-// const nt = new NeedOfThisKeyword("Mayur");
-// nt.display();
+ const nt = new NeedOfThisKeyword("Mayur");
+ nt.display();
 
 
 //2. this keyword refer current class method
