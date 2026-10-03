@@ -7,100 +7,100 @@
 //5. Optional property (?) may or may not be provided.
 
 
-// interface Student{
-//     id : number;
-//     name : string;
-//     location? : number;
-//     exam(): void;
-// }
+ interface Student{
+     id : number;
+     name : string;
+     location? : number;
+     exam(): void;
+ }
 
-// const stud : Student = {
-//     id : 1,
-//     name : "Mayank",
-//     exam() {
-//         console.log("Math Exam");
-//     },
-// };
+ const stud : Student = {
+     id : 1,
+     name : "Mayank",
+     exam() {
+         console.log("Math Exam");
+     },
+ };
 
-// console.log(stud.id);
-// console.log(stud.name);
-// stud.exam();
+ console.log(stud.id);
+ console.log(stud.name);
+ stud.exam();
 
 
 //Interface to Interface IS:A relationship
-// interface Employee {
-//     empName : string;
-// }
+ interface Employee {
+     empName : string;
+ }
 
-// interface Actor extends Employee{
-//     actorName : string;
-// }
+ interface Actor extends Employee{
+     actorName : string;
+ }
 
-// const a : Actor = {
-//     actorName : "Akshay Kuname",
-//     empName : "Pranoti"
-// };
+ const a : Actor = {
+     actorName : "Akshay",
+     empName : "Pranoti"
+ };
 
-// console.log(a.actorName);
-// console.log(a.empName);
+ console.log(a.actorName);
+ console.log(a.empName);
 
 
 //Interface to Class IS:A relationship
 
-// interface Mango{
-//     color():void;
-// }
+ interface Mango{
+     color():void;
+ }
 
-// class  Fruites implements Mango {
-//    color(){
-//     console.log("Mango color is Yellow");
-//    }
-// }
+ class  Fruites implements Mango {
+    color(){
+     console.log("Mango color is Yellow");
+    }
+ }
 
-// let f = new Fruites();
-// f.color();
+ let f = new Fruites();
+ f.color();
 
 
 //Multiple Inheritence with classes and Interface
-// interface Mango{
-//     color():void;
-// }
+ interface Mango{
+     color():void;
+ }
 
-// interface Apple{
-//     color():void;
-// }
+ interface Apple{
+     color():void;
+ }
 
-// class  Fruites implements Mango, Apple {
-//    color(){
-//     console.log("color is Yellow");
-//    }
-// }
+ class  Fruites implements Mango, Apple {
+    color(){
+     console.log("color is Yellow");
+    }
+ }
 
-// let f = new Fruites();
-// f.color();
+ let f = new Fruites();
+ f.color();
 
 
 //Multiple Inheritence with Interface to Interface
 
-// interface Mango{
-//     color():void;
-// }
+ interface Mango{
+     color():void;
+ }
 
-// interface Apple{
-//     color():void;
-// }
+ interface Apple{
+     color():void;
+ }
 
-// interface Fruite extends Mango, Apple{
+ interface Fruite extends Mango, Apple{
 
-// }
+ }
 
-// const f : Fruite = {
-//     color() {
-//         console.log("Color is Red");
-//     },
-// }
+ const f : Fruite = {
+     color() {
+         console.log("Color is Red");
+     },
+ }
 
-// f.color();
+ f.color();
 
 
 //Interface with Array in TypeScript
