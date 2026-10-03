@@ -5,20 +5,20 @@
 //It runs automatically when using new keyword.
  //Used to initialize object properties.
 
-//  class ExampleOfConstructor {
+  class ExampleOfConstructor {
 
-//     name : string;
+     name : string;
 
-//     constructor(name : string){
-//         this.name = name;
-//     }
-//  }
+     constructor(name : string){
+         this.name = name;
+     }
+  }
 
-//  let ec = new ExampleOfConstructor("Mohini");
-//  console.log(ec.name);
+  let ec = new ExampleOfConstructor("Mohini");
+  console.log(ec.name);
 
-//  let ec2 = new ExampleOfConstructor("Heena");
-// console.log(ec2.name);
+  let ec2 = new ExampleOfConstructor("Heena");
+  console.log(ec2.name);
 
 
 //private constructor
