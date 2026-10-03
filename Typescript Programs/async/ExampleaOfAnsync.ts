@@ -1,11 +1,11 @@
 
 //Without Async programming
-// console.log("Fetching Data...");
+ console.log("Fetching Data...");
 // // Blocking code (waits for 5 seconds)
-// const start = Date.now();
-// while (Date.now() - start < 5000) {
-// }
-// console.log("Data Received");
+ const start = Date.now();
+ while (Date.now() - start < 5000) {
+ }
+ console.log("Data Received");
 
 //Async programming
 //In asynchronous programming, a task can start and continue in the background while other code executes.
@@ -16,20 +16,20 @@
 //Fulfilled (Resolved)
 //Rejected
 
-//const myPromise = new Promise((resolve, reject) => {
+const myPromise = new Promise((resolve, reject) => {
 //Asynchronous operation or task 
 // If successful, call resolve with the result 
 //  If there's an error, call reject with the reason});
 
-// function fetchData(): Promise<string> {
-// return new Promise((Pending) => {
-//         setTimeout(() => {
-//             Pending("User Data");
-//         }, 3000);
-// });
+ function fetchData(): Promise<string> {
+ return new Promise((Pending) => {
+         setTimeout(() => {
+            Pending("User Data");
+         }, 3000);
+ });
 
-// fetchData()
-//     .then(data => console.log(data));
+ fetchData()
+     .then(data => console.log(data));
 
 
 //Async and await
