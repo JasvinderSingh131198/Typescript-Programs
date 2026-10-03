@@ -8,35 +8,35 @@
 //1. whenw e have to declered any variable inside the function that time we have to use var keyword
 //2. var variables have function scope.  
 
-// function addition() {
+ function addition() {
 
     //3. In var redeclartion is allowed 
-    // var a : number = 100;
-    // var a : number = 200;
-    //console.log(a);
+     var a : number = 100;
+     var a : number = 200;
+     console.log(a);
 
 
     //4. Reassignment Allowed
-    // var city = 'Mumbai';
-    // city = 'Pune';
+     var city = 'Mumbai';
+     city = 'Pune';
 
-    //console.log(city);
+     console.log(city);
 
 
     //5. Hoisting is allowed
-    // console.log(name5);
-    // var name5 = 'Gauri';
-    // console.log(name5);
+     console.log(name5);
+     var name5 = 'Gauri';
+     console.log(name5);
 
-//     if (true) {
-//        var city = 'Mumbai';
-//     }
+     if (true) {
+        var city = 'Mumbai';
+     }
 
-//     console.log(city);
+     console.log(city);
     
-// }
+ }
 
-//addition();
+addition();
 
 
 //let keyword
@@ -44,33 +44,33 @@
 //Preferred over var because it supports block scope.
 //When to Use let When variable value needs to change
 
-// function multiplication() {
+ function multiplication() {
 
-//     let x = 'Sadanand';
+     let x = 'Sadanand';
      
 
-//     if (true) {
+     if (true) {
 
         //Reassignment Allowed
-        // let name6 = 'Mayur';
-        // name6 = 'Mohini';
-        // console.log(name6);
+         let name6 = 'Mayur';
+         name6 = 'Mohini';
+         console.log(name6);
 
-        //redeclartion is not allowedallowed 
-        // let x : string = 'Nilam';
-        // let x : string = 'Rahul';
+        //redeclartion is not allowed 
+         let x : string = 'Nilam';
+         let x : string = 'Rahul';
 
         //let is hoisted. But cannot be used before declaration. 
-        // console.log(x);
-        // let x = 'Sadanand';
+         console.log(x);
+         let x = 'Sadanand';
 
-//         x = 'Aniket';
+         x = 'Aniket';
 
-//     }
-//     console.log(x);
+     }
+     console.log(x);
     
-// }
-// multiplication();
+ }
+ multiplication();
 
 
 //const keyword
@@ -81,20 +81,20 @@
 function substraction() {
     
     if (true) {
-        // const name7 = 'Sopan';
-        // console.log(name7);
+         const name7 = 'Sopan';
+         console.log(name7);
 
         //Reassignment is not allowed
-        // const name8 = 'Snehal';
-        // name8 = 'sopan';
+         const name8 = 'Snehal';
+         name8 = 'sopan';
 
         //Redeclaration Not Allowed
-        // const name8 = 'Snehal';
-        // const name8 = 'sopan';
+         const name8 = 'Snehal';
+         const name8 = 'sopan';
 
         //hoisted
-        // console.log(name8);
-        // const name8 = 'sopan';
+         console.log(name8);
+         const name8 = 'sopan';
 
     }
 }
